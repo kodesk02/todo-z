@@ -12,7 +12,7 @@ import Animated, {
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 export default function LiquidButton({
-  label = "Start Now",
+  label,
   onPress,
 }: {
   label?: string;
@@ -38,7 +38,10 @@ export default function LiquidButton({
   return (
     <Pressable
       onPress={onPress}
-      className="w-[280px] h-16 rounded-full bg-[#ff7a18] active:bg-[#e8650a] active:opacity-90 flex-row items-center justify-center gap-3"
+      style={{
+        backgroundColor: "#9F79E7"
+      }}
+      className="w-[280px] h-16 rounded-full active:bg-[#8648f8] active:opacity-90 flex-row items-center justify-center gap-3"
     >
       <Text className="text-white text-base font-bold">{label}</Text>
       <Animated.Text className="text-white text-lg font-bold" style={chevronStyle}>

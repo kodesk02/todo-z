@@ -66,7 +66,7 @@ function CubeLayer({
   cy,
   size,
   progress,
-  stroke = "#ffffff",
+  stroke = "#114A52",
   strokeWidth = 1.25,
 }: LayerProps) {
   const { hex, yTop, yBL, yBR } = isoCubePaths(cx, cy, size);

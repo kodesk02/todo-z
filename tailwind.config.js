@@ -9,9 +9,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: "#0a0a0f",
-        glow: "#ff7a18",
-        ink: "#e8e8ee",
+        bg: "#F1EDED",
+        purple: "#9F79E7",
+        green: "#114A52",
         muted: "#8a8a99",
       },
     },

@@ -1,0 +1,11 @@
+
+React Native / Expo is supported as a PRO feature of Console Ninja https://console-ninja.com/pro.
+
+Starting project at /Users/macbook/Desktop/Projects/todo-app
+Using src/app as the root directory for Expo Router.
+Starting Metro Bundler
+
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+iOS Bundled 8771ms node_modules/.pnpm/expo-router@56.2.11_be4e47ad1b3f91f8ed8c525970598deb/node_modules/expo-router/entry.js (1820 modules)
